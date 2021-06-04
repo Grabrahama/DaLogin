@@ -1,0 +1,81 @@
+
+body {
+    background: #000000; /*para cambiar el fondo, nice*/
+    color: #ffffff;
+    font-size: 16px;
+    background-image: url(/lesgo.png)
+}
+.login{  
+display: flex;
+align-items: center;
+justify-content: center;
+width: 382px;  
+overflow: hidden;  
+margin: auto;  
+margin: 20 0 0 450px;  
+padding: 80px;  
+background: #1e3631;  
+border-radius: 15px ;  
+      
+}  
+h2{  
+font-size: 36px;
+text-align: center;  
+color: #291dd6a8;  
+padding: 20px;  
+}  
+label{  
+color: #08ffd1;  
+font-size: 17px;  
+}  
+
+#username{
+    margin-left: 35%;
+}
+#passs{
+    margin-left: 35%;
+}
+#DaUser{  
+margin-left: 10%;
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+margin-left: 10%;
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+  
+}  
+#log{  
+font-size: 16px;
+margin-top: 5%;
+margin-left: 10%;
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 17px;  
+padding-left: 7px;  
+color: rgb(20, 20, 58);  
+cursor: pointer;
+}  
+#log:hover{
+opacity: 0.7;
+}
+
+span{  
+color: rgb(245, 245, 245);  
+font-size: 14px;  
+}  
+a{  
+margin-left: 13%;
+color: #050052;  
+}
+a:hover{
+    opacity: 0.5;
+} 
